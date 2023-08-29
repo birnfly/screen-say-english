@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF85E0F82A95AE3200DCCA20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85E0F72A95AE3200DCCA20 /* AppDelegate.m */; };
+		BF85E0FB2A95AE3200DCCA20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85E0FA2A95AE3200DCCA20 /* ViewController.m */; };
+		BF85E0FD2A95AE3400DCCA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF85E0FC2A95AE3400DCCA20 /* Assets.xcassets */; };
+		BF85E1002A95AE3400DCCA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF85E0FE2A95AE3400DCCA20 /* Main.storyboard */; };
+		BF85E1022A95AE3400DCCA20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85E1012A95AE3400DCCA20 /* main.m */; };
+		BF85E10D2A95AE3400DCCA20 /* screen_say_englishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85E10C2A95AE3400DCCA20 /* screen_say_englishTests.m */; };
+		BF85E1172A95AE3400DCCA20 /* screen_say_englishUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85E1162A95AE3400DCCA20 /* screen_say_englishUITests.m */; };
+		BF85E1192A95AE3400DCCA20 /* screen_say_englishUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85E1182A95AE3400DCCA20 /* screen_say_englishUITestsLaunchTests.m */; };
+		BF85E1272A95B3D400DCCA20 /* UIElementUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = BF85E1262A95B3D400DCCA20 /* UIElementUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF85E1092A95AE3400DCCA20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF85E0EB2A95AE3200DCCA20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF85E0F22A95AE3200DCCA20;
+			remoteInfo = "screen-say-english";
+		};
+		BF85E1132A95AE3400DCCA20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF85E0EB2A95AE3200DCCA20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF85E0F22A95AE3200DCCA20;
+			remoteInfo = "screen-say-english";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF85E0F32A95AE3200DCCA20 /* screen-say-english.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "screen-say-english.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF85E0F62A95AE3200DCCA20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF85E0F72A95AE3200DCCA20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF85E0F92A95AE3200DCCA20 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF85E0FA2A95AE3200DCCA20 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF85E0FC2A95AE3400DCCA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF85E0FF2A95AE3400DCCA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF85E1012A95AE3400DCCA20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF85E1032A95AE3400DCCA20 /* screen_say_english.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = screen_say_english.entitlements; sourceTree = "<group>"; };
+		BF85E1082A95AE3400DCCA20 /* screen-say-englishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "screen-say-englishTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF85E10C2A95AE3400DCCA20 /* screen_say_englishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = screen_say_englishTests.m; sourceTree = "<group>"; };
+		BF85E1122A95AE3400DCCA20 /* screen-say-englishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "screen-say-englishUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF85E1162A95AE3400DCCA20 /* screen_say_englishUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = screen_say_englishUITests.m; sourceTree = "<group>"; };
+		BF85E1182A95AE3400DCCA20 /* screen_say_englishUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = screen_say_englishUITestsLaunchTests.m; sourceTree = "<group>"; };
+		BF85E1252A95B3D400DCCA20 /* UIElementUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIElementUtilities.h; sourceTree = "<group>"; };
+		BF85E1262A95B3D400DCCA20 /* UIElementUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIElementUtilities.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF85E0F02A95AE3200DCCA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85E1052A95AE3400DCCA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85E10F2A95AE3400DCCA20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF85E0EA2A95AE3200DCCA20 = {
+			isa = PBXGroup;
+			children = (
+				BF85E0F52A95AE3200DCCA20 /* screen-say-english */,
+				BF85E10B2A95AE3400DCCA20 /* screen-say-englishTests */,
+				BF85E1152A95AE3400DCCA20 /* screen-say-englishUITests */,
+				BF85E0F42A95AE3200DCCA20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF85E0F42A95AE3200DCCA20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF85E0F32A95AE3200DCCA20 /* screen-say-english.app */,
+				BF85E1082A95AE3400DCCA20 /* screen-say-englishTests.xctest */,
+				BF85E1122A95AE3400DCCA20 /* screen-say-englishUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF85E0F52A95AE3200DCCA20 /* screen-say-english */ = {
+			isa = PBXGroup;
+			children = (
+				BF85E1252A95B3D400DCCA20 /* UIElementUtilities.h */,
+				BF85E1262A95B3D400DCCA20 /* UIElementUtilities.m */,
+				BF85E0F62A95AE3200DCCA20 /* AppDelegate.h */,
+				BF85E0F72A95AE3200DCCA20 /* AppDelegate.m */,
+				BF85E0F92A95AE3200DCCA20 /* ViewController.h */,
+				BF85E0FA2A95AE3200DCCA20 /* ViewController.m */,
+				BF85E0FC2A95AE3400DCCA20 /* Assets.xcassets */,
+				BF85E0FE2A95AE3400DCCA20 /* Main.storyboard */,
+				BF85E1012A95AE3400DCCA20 /* main.m */,
+				BF85E1032A95AE3400DCCA20 /* screen_say_english.entitlements */,
+			);
+			path = "screen-say-english";
+			sourceTree = "<group>";
+		};
+		BF85E10B2A95AE3400DCCA20 /* screen-say-englishTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF85E10C2A95AE3400DCCA20 /* screen_say_englishTests.m */,
+			);
+			path = "screen-say-englishTests";
+			sourceTree = "<group>";
+		};
+		BF85E1152A95AE3400DCCA20 /* screen-say-englishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF85E1162A95AE3400DCCA20 /* screen_say_englishUITests.m */,
+				BF85E1182A95AE3400DCCA20 /* screen_say_englishUITestsLaunchTests.m */,
+			);
+			path = "screen-say-englishUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF85E0F22A95AE3200DCCA20 /* screen-say-english */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF85E11C2A95AE3400DCCA20 /* Build configuration list for PBXNativeTarget "screen-say-english" */;
+			buildPhases = (
+				BF85E0EF2A95AE3200DCCA20 /* Sources */,
+				BF85E0F02A95AE3200DCCA20 /* Frameworks */,
+				BF85E0F12A95AE3200DCCA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "screen-say-english";
+			productName = "screen-say-english";
+			productReference = BF85E0F32A95AE3200DCCA20 /* screen-say-english.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF85E1072A95AE3400DCCA20 /* screen-say-englishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF85E11F2A95AE3400DCCA20 /* Build configuration list for PBXNativeTarget "screen-say-englishTests" */;
+			buildPhases = (
+				BF85E1042A95AE3400DCCA20 /* Sources */,
+				BF85E1052A95AE3400DCCA20 /* Frameworks */,
+				BF85E1062A95AE3400DCCA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF85E10A2A95AE3400DCCA20 /* PBXTargetDependency */,
+			);
+			name = "screen-say-englishTests";
+			productName = "screen-say-englishTests";
+			productReference = BF85E1082A95AE3400DCCA20 /* screen-say-englishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF85E1112A95AE3400DCCA20 /* screen-say-englishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF85E1222A95AE3400DCCA20 /* Build configuration list for PBXNativeTarget "screen-say-englishUITests" */;
+			buildPhases = (
+				BF85E10E2A95AE3400DCCA20 /* Sources */,
+				BF85E10F2A95AE3400DCCA20 /* Frameworks */,
+				BF85E1102A95AE3400DCCA20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF85E1142A95AE3400DCCA20 /* PBXTargetDependency */,
+			);
+			name = "screen-say-englishUITests";
+			productName = "screen-say-englishUITests";
+			productReference = BF85E1122A95AE3400DCCA20 /* screen-say-englishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF85E0EB2A95AE3200DCCA20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BF85E0F22A95AE3200DCCA20 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BF85E1072A95AE3400DCCA20 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BF85E0F22A95AE3200DCCA20;
+					};
+					BF85E1112A95AE3400DCCA20 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BF85E0F22A95AE3200DCCA20;
+					};
+				};
+			};
+			buildConfigurationList = BF85E0EE2A95AE3200DCCA20 /* Build configuration list for PBXProject "screen-say-english" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF85E0EA2A95AE3200DCCA20;
+			productRefGroup = BF85E0F42A95AE3200DCCA20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF85E0F22A95AE3200DCCA20 /* screen-say-english */,
+				BF85E1072A95AE3400DCCA20 /* screen-say-englishTests */,
+				BF85E1112A95AE3400DCCA20 /* screen-say-englishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF85E0F12A95AE3200DCCA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85E0FD2A95AE3400DCCA20 /* Assets.xcassets in Resources */,
+				BF85E1002A95AE3400DCCA20 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85E1062A95AE3400DCCA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85E1102A95AE3400DCCA20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF85E0EF2A95AE3200DCCA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85E0FB2A95AE3200DCCA20 /* ViewController.m in Sources */,
+				BF85E1022A95AE3400DCCA20 /* main.m in Sources */,
+				BF85E0F82A95AE3200DCCA20 /* AppDelegate.m in Sources */,
+				BF85E1272A95B3D400DCCA20 /* UIElementUtilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85E1042A95AE3400DCCA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85E10D2A95AE3400DCCA20 /* screen_say_englishTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF85E10E2A95AE3400DCCA20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF85E1172A95AE3400DCCA20 /* screen_say_englishUITests.m in Sources */,
+				BF85E1192A95AE3400DCCA20 /* screen_say_englishUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF85E10A2A95AE3400DCCA20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF85E0F22A95AE3200DCCA20 /* screen-say-english */;
+			targetProxy = BF85E1092A95AE3400DCCA20 /* PBXContainerItemProxy */;
+		};
+		BF85E1142A95AE3400DCCA20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF85E0F22A95AE3200DCCA20 /* screen-say-english */;
+			targetProxy = BF85E1132A95AE3400DCCA20 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF85E0FE2A95AE3400DCCA20 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF85E0FF2A95AE3400DCCA20 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF85E11A2A95AE3400DCCA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BF85E11B2A95AE3400DCCA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF85E11D2A95AE3400DCCA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "screen-say-english/screen_say_english.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2U4G77XWB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wujiansheng.screensayenglish.screen-say-english";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		BF85E11E2A95AE3400DCCA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "screen-say-english/screen_say_english.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2U4G77XWB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wujiansheng.screensayenglish.screen-say-english";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		BF85E1202A95AE3400DCCA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2U4G77XWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wujiansheng.screensayenglish.screen-say-englishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/screen-say-english.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/screen-say-english";
+			};
+			name = Debug;
+		};
+		BF85E1212A95AE3400DCCA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2U4G77XWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wujiansheng.screensayenglish.screen-say-englishTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/screen-say-english.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/screen-say-english";
+			};
+			name = Release;
+		};
+		BF85E1232A95AE3400DCCA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2U4G77XWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wujiansheng.screensayenglish.screen-say-englishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "screen-say-english";
+			};
+			name = Debug;
+		};
+		BF85E1242A95AE3400DCCA20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2U4G77XWB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wujiansheng.screensayenglish.screen-say-englishUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = "screen-say-english";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF85E0EE2A95AE3200DCCA20 /* Build configuration list for PBXProject "screen-say-english" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85E11A2A95AE3400DCCA20 /* Debug */,
+				BF85E11B2A95AE3400DCCA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF85E11C2A95AE3400DCCA20 /* Build configuration list for PBXNativeTarget "screen-say-english" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85E11D2A95AE3400DCCA20 /* Debug */,
+				BF85E11E2A95AE3400DCCA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF85E11F2A95AE3400DCCA20 /* Build configuration list for PBXNativeTarget "screen-say-englishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85E1202A95AE3400DCCA20 /* Debug */,
+				BF85E1212A95AE3400DCCA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF85E1222A95AE3400DCCA20 /* Build configuration list for PBXNativeTarget "screen-say-englishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF85E1232A95AE3400DCCA20 /* Debug */,
+				BF85E1242A95AE3400DCCA20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF85E0EB2A95AE3200DCCA20 /* Project object */;
+}
